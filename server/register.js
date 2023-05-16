@@ -63,7 +63,7 @@ const extendVersionedContentTypes = (strapi) => {
         writable: true,
         private: false,
         configurable: false,
-        visible: false,
+        visible: true,
         type: "boolean",
         default: true,
       });

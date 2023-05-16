@@ -18,7 +18,7 @@ module.exports = async ({ strapi }) => {
         }
 
         ctx.request.query.filters = {
-          $and: [{ is_visible_in_list_view: { $eq: true } }],
+          $and: [{ isVisibleInListView: { $eq: true } }],
           ...ctx.request.query.filters,
         };
       }
