@@ -83,6 +83,7 @@ const Versions = () => {
       if (!value) {
         return;
       }
+      value = parseInt(value)
 
       const selectedVersion = data.find((v) => v.versionNumber === value);
 
